@@ -34,8 +34,9 @@ Este es un tutorial paso a paso para crear un buscador de películas utilizando 
 -   Crea un nuevo archivo llamado `BuscadorPeliculas.jsx` en la carpeta `src` del proyecto.
 -   Copia y pega el siguiente código en el archivo `BuscadorPeliculas.jsx`:
 
-    import { useState } from "react";
-    
+import { useState } from "react";
+
+
     export const BuscadorPeliculas = () => {
       const urlBase = 'https://api.openweathermap.org/data/2.5/weather';
       const API_KEY = 'your_api_key';
@@ -62,7 +63,7 @@ Este es un tutorial paso a paso para crear un buscador de películas utilizando 
           console.error('Ocurrió el siguiente problema: ', error);
         }
       };
-    
+
       return (
         <div className="container">
           <h1>Aplicación del Clima</h1>
@@ -89,14 +90,15 @@ Este es un tutorial paso a paso para crear un buscador de películas utilizando 
       );
     };
 
+
 ### 4. Uso del componente BuscadorPeliculas
 
 -   Abre el archivo `src/App.jsx`.
 -   Reemplaza el contenido existente con el siguiente código:
 
-    import React from "react";
-    import { BuscadorPeliculas } from "./BuscadorPeliculas";
-    
+import React from "react";
+import { BuscadorPeliculas } from "./BuscadorPeliculas";
+
     function App() {
       return (
         <div className="App">
@@ -104,8 +106,9 @@ Este es un tutorial paso a paso para crear un buscador de películas utilizando 
         </div>
       );
     }
-    
-    export default App;
+
+
+
 
 ### 5. Configuración de la API key
 
