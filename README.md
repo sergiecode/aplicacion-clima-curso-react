@@ -17,11 +17,15 @@ Este es un tutorial paso a paso para crear un buscador de películas utilizando 
 -   Abre una terminal y navega hasta la carpeta del proyecto.
 -   Ejecuta el siguiente comando para crear un nuevo proyecto de React utilizando Vite:
 
+```
     npx create-vite@latest buscador-peliculas-react --template react
+```
 
 -   Ingresa a la carpeta del proyecto:
 
+```
     cd buscador-peliculas-react
+```
 
 ### 2. Obtención de la API key
 
@@ -34,9 +38,9 @@ Este es un tutorial paso a paso para crear un buscador de películas utilizando 
 -   Crea un nuevo archivo llamado `BuscadorPeliculas.jsx` en la carpeta `src` del proyecto.
 -   Copia y pega el siguiente código en el archivo `BuscadorPeliculas.jsx`:
 
+
+```
 import { useState } from "react";
-
-
     export const BuscadorPeliculas = () => {
       const urlBase = 'https://api.openweathermap.org/data/2.5/weather';
       const API_KEY = 'your_api_key';
@@ -90,12 +94,15 @@ import { useState } from "react";
       );
     };
 
+```
+
 
 ### 4. Uso del componente BuscadorPeliculas
 
 -   Abre el archivo `src/App.jsx`.
 -   Reemplaza el contenido existente con el siguiente código:
 
+```
 import React from "react";
 import { BuscadorPeliculas } from "./BuscadorPeliculas";
 
@@ -106,9 +113,7 @@ import { BuscadorPeliculas } from "./BuscadorPeliculas";
         </div>
       );
     }
-
-
-
+```
 
 ### 5. Configuración de la API key
 
