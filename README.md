@@ -1,3 +1,5 @@
+Link al curso de React: [REACT DESDE CERO por Sergie Code](https://youtu.be/ladwC6Lrs-M)
+
 # Tutorial para hacer Buscador de películas en React
 
 Este es un tutorial paso a paso para crear un buscador de películas utilizando React. Aprenderás cómo utilizar la biblioteca de React para crear una aplicación web interactiva que consuma datos de la API de OpenWeatherMap y muestre información sobre el clima de una ciudad específica.
